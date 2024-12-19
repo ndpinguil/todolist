@@ -1,0 +1,29 @@
+:root {
+  font-family: "Inter", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.5;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+button:hover {
+  transform: scale(1.05);
+}
